@@ -6,11 +6,16 @@ annotate srv.AdminService.Authors with @UI : {
     Facets                     : [
     {
         $Type  : 'UI.ReferenceFacet',
-        Target : '@UI.FieldGroup#General'
+        Target : '@UI.FieldGroup#General',
     },
     {
         $Type  : 'UI.ReferenceFacet',
-        Target : '@UI.FieldGroup#Administrative'
+        Target : '@UI.FieldGroup#Administrative',
+    },
+    {
+        $Type  : 'UI.ReferenceFacet',
+        Target : 'books/@UI.LineItem',
+        Label  : '{i18n>books}'
     },
     ],
     FieldGroup #General        : {
@@ -34,16 +39,22 @@ annotate srv.AdminService.Books with @UI : {
     Facets                     : [
     {
         $Type  : 'UI.ReferenceFacet',
-        Target : '@UI.FieldGroup#General'
+        Target : '@UI.FieldGroup#General',
     },
     {
         $Type  : 'UI.ReferenceFacet',
-        Target : '@UI.FieldGroup#Administrative'
+        Target : '@UI.FieldGroup#Administrative',
     }
     ],
     FieldGroup #General        : {
         $Type : 'UI.FieldGroupType',
-        Data  : [{Value : title}, ],
+        Data  : [
+        {Value : title},
+        {
+            Value : author_ID,
+            Label : '{i18n>author}'
+        }
+        ],
         Label : '{i18n>general}',
     },
     FieldGroup #Administrative : {
@@ -56,4 +67,13 @@ annotate srv.AdminService.Books with @UI : {
         ],
         Label : '{i18n>administrative}'
     },
+};
+
+
+annotate srv.AdminService.Books with {
+    author @ValueList : {entity : 'Authors'}
+           @Common    : {
+        Text            : author.name,
+        TextArrangement : #TextOnly
+    };
 };
