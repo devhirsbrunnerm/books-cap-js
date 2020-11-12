@@ -4,5 +4,12 @@
     "**/.git": true,
     "**/.vscode": true
 },
-"actions": []
+"actions": [],
+"sqltools.connections": [
+    {
+        "dialect": "SQLite",
+        "database": "sqlite.db",
+        "name": "Sqlite"
+    }
+]
 }

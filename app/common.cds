@@ -2,6 +2,11 @@ namespace app;
 
 using {db} from '../db/schema';
 
+/**
+* Define Common Annotations used across all Services
+*/
+
+
 annotate db.Authors with @(
     Common.SemanticKey : [ID],
     UI                 : {
@@ -16,7 +21,7 @@ annotate db.Authors with @(
         LineItem        : [{Value : name}],
     }
 ) {
-    ID   @title : '{i18n>id}'  @Core.Computed;
+    ID   @title : '{i18n>id}';
     name @title : '{i18n>name}';
 };
 
@@ -24,12 +29,12 @@ annotate db.Authors with @(
 annotate db.Books with @(
     Common.SemanticKey : [ID],
     UI                 : {
-        Identification  : [{Value : title}],
+        Identification  : [{Value : ID}],
         HeaderInfo      : {
             $Type          : 'UI.HeaderInfoType',
             TypeName       : '{i18n>book}',
             TypeNamePlural : '{i18n>books}',
-            Title          : {Value : title}
+            Title          : {Value : title},
         },
         SelectionFields : [title],
         LineItem        : [
@@ -41,6 +46,6 @@ annotate db.Books with @(
         ],
     }
 ) {
-    ID    @title : '{i18n>id}'  @Core.Computed;
+    ID    @title : '{i18n>id}';
     title @title : '{i18n>title}';
 };

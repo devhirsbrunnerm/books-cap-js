@@ -4,10 +4,20 @@ using {db} from '../db/schema';
 
 service CatalogService {
 
-    @readonly
-    entity Books   as projection on db.Books;
+    // Do not allow access to adminstrative data
 
     @readonly
-    entity Authors as projection on db.Authors;
+    entity Books as select from db.Books {
+        ID,
+        title,
+        author
+    };
+
+    @readonly
+    entity Authors as select from db.Authors {
+        ID,
+        name,
+        books
+    }
 
 }
