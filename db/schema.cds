@@ -8,3 +8,6 @@ entity Books : cuid, managed {
 }
 
 
+entity Authors : cuid, managed {
+    name: String(200);
+}
