@@ -1,25 +1,19 @@
-# Getting Started
+# book-cap-js
 
-Welcome to your new project.
-
-It contains these folders and files, following our recommended project layout:
-
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+In this repository you can find a small example application for the SAP cloud application programming model. It uses the node flavor in the backend and uses fiori elements for the frontend. It contains the two entities books and authors, which stand in a many to one association. There are two services, the admin service for managing the entries and the catalog service which is readonly.
+The title property of the book is localized and all static texts are localized as well.
 
 
-## Next Steps
+## Starting the applicaiton
+For starting the application locally, simple type 
 
-- Open a new terminal and run `cds watch` 
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
+```sh
+$ cds watch
+```
 
+If you want to keep your data persistent locally, first type 
 
-## Learn More
+```sh
+$ cds deploy -2 sqlite
+```
 
-Learn more at https://cap.cloud.sap/docs/get-started/.
