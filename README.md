@@ -5,15 +5,15 @@ The title property of the book is localized and all static texts are localized a
 
 
 ## Starting the applicaiton
-For starting the application locally, simple type 
-
-```sh
-$ cds watch
-```
-
-If you want to keep your data persistent locally, first type 
+For starting the application locally, simple type:
 
 ```sh
 $ cds deploy -2 sqlite
+$ cds watch
 ```
+
+This first creates the sqlite file for storing the data and then serves the application in watch mode.
+
+
+
 
