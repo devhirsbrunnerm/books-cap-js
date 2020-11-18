@@ -1,6 +1,6 @@
-"ID","createdAt","createdBy","modifiedAt","modifiedBy","title","author_ID"
-"a87a211c-031a-465c-967b-89689a3c4fdd","2020-11-12T14:23:37.672Z","anonymous","2020-11-12T14:26:14.992Z","anonymous","The Hitchhiker's Guide to the Galaxy","91ba0e63-c307-4e4c-89dd-f18bf7e89727"
-"2c76fdda-68f0-4812-b73b-b0469078e809","2020-11-12T14:27:43.469Z","anonymous","2020-11-12T14:27:43.469Z","anonymous","Dirk Gently's Holistic Detective Agency","91ba0e63-c307-4e4c-89dd-f18bf7e89727"
-"8448079d-b5e7-4578-88af-0670eb6c2c66","2020-11-12T14:28:33.441Z","anonymous","2020-11-12T14:28:47.267Z","anonymous","The Restaurant at the End of the Universe","91ba0e63-c307-4e4c-89dd-f18bf7e89727"
-"a0808951-75df-4b6f-843b-49645062f881","2020-11-12T14:31:06.637Z","anonymous","2020-11-12T14:31:06.637Z","anonymous","Animal Farm","260906b8-48ea-4416-8ea8-336ed95e96be"
-"87dba156-8812-45bb-ad2e-b61d25e0f6ea","2020-11-12T14:31:44.787Z","anonymous","2020-11-12T14:31:44.787Z","anonymous","1984","260906b8-48ea-4416-8ea8-336ed95e96be"
+ID;createdAt;createdBy;modifiedAt;modifiedBy;title;author_ID
+a87a211c-031a-465c-967b-89689a3c4fdd;2020-11-12T14:23:37.672Z;anonymous;2020-11-12T14:26:14.992Z;anonymous;The Hitchhiker's Guide to the Galaxy;91ba0e63-c307-4e4c-89dd-f18bf7e89727
+2c76fdda-68f0-4812-b73b-b0469078e809;2020-11-12T14:27:43.469Z;anonymous;2020-11-12T14:27:43.469Z;anonymous;Dirk Gently's Holistic Detective Agency;91ba0e63-c307-4e4c-89dd-f18bf7e89727
+8448079d-b5e7-4578-88af-0670eb6c2c66;2020-11-12T14:28:33.441Z;anonymous;2020-11-12T14:28:47.267Z;anonymous;The Restaurant at the End of the Universe;91ba0e63-c307-4e4c-89dd-f18bf7e89727
+a0808951-75df-4b6f-843b-49645062f881;2020-11-12T14:31:06.637Z;anonymous;2020-11-12T14:31:06.637Z;anonymous;Animal Farm;260906b8-48ea-4416-8ea8-336ed95e96be
+87dba156-8812-45bb-ad2e-b61d25e0f6ea;2020-11-12T14:31:44.787Z;anonymous;2020-11-12T14:31:44.787Z;anonymous;1984;260906b8-48ea-4416-8ea8-336ed95e96be

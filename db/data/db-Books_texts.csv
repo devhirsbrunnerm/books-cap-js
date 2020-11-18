@@ -1,16 +1,16 @@
-"ID_texts","locale","ID","title"
-"dcd97094-5060-4edc-9d8e-8cbfff213567","de","a87a211c-031a-465c-967b-89689a3c4fdd","Per Anhalter durch die Galaxis"
-"28bf0dcd-efcd-4c1a-bd3d-0643fabdd912","en","a87a211c-031a-465c-967b-89689a3c4fdd","The Hitchhiker's Guide to the Galaxy"
-"9ffbf603-108c-4ee5-9704-3d394f8ec20b","fr","a87a211c-031a-465c-967b-89689a3c4fdd","Guide du routard galactique"
-"8ce4b23d-7c37-44e3-a18e-dfdad3e00487","de","2c76fdda-68f0-4812-b73b-b0469078e809","Dirk Gently's holistische Detektei"
-"5a52fbc5-bf34-4956-910c-da9448f93b3b","fr","2c76fdda-68f0-4812-b73b-b0469078e809","Un cheval dans la salle de bain"
-"bd5d88fc-076a-4c42-b43a-a49c980e655b","en","2c76fdda-68f0-4812-b73b-b0469078e809","Dirk Gently's Holistic Detective Agency"
-"c8a3022d-ee76-4dd0-8513-76f63d78dfeb","en","8448079d-b5e7-4578-88af-0670eb6c2c66","The Restaurant at the End of the Universe"
-"9811ecad-1f51-425d-b0ae-6a82b28f9e83","de","8448079d-b5e7-4578-88af-0670eb6c2c66","Das Restaurant am Ende des Universums"
-"fa69fbbb-cf2f-47b2-8237-61e2b36e0e59","fr","8448079d-b5e7-4578-88af-0670eb6c2c66","Le dernier restaurant avant la fin du monde"
-"74184e01-4f93-4433-9cd2-41398fa4fee4","en","a0808951-75df-4b6f-843b-49645062f881","Animal Farm"
-"b7b14a3c-299b-4bc6-aa9b-fce339b178d0","de","a0808951-75df-4b6f-843b-49645062f881","Farm der Tiere"
-"ad2b7244-ed50-4441-a763-de8a682608ca","fr","a0808951-75df-4b6f-843b-49645062f881","La Ferme des Animaux"
-"4b1c4198-df84-4781-841d-129d00592484","de","87dba156-8812-45bb-ad2e-b61d25e0f6ea","1984"
-"59bb4aa0-809d-4359-8637-3575b0eed821","en","87dba156-8812-45bb-ad2e-b61d25e0f6ea","1984"
-"dd90d14f-3bfc-4b83-992c-2b6d55bdc642","fr","87dba156-8812-45bb-ad2e-b61d25e0f6ea","1984"
+ID_texts;locale;ID;title
+dcd97094-5060-4edc-9d8e-8cbfff213567;de;a87a211c-031a-465c-967b-89689a3c4fdd;Per Anhalter durch die Galaxis
+28bf0dcd-efcd-4c1a-bd3d-0643fabdd912;en;a87a211c-031a-465c-967b-89689a3c4fdd;The Hitchhiker's Guide to the Galaxy
+9ffbf603-108c-4ee5-9704-3d394f8ec20b;fr;a87a211c-031a-465c-967b-89689a3c4fdd;Guide du routard galactique
+8ce4b23d-7c37-44e3-a18e-dfdad3e00487;de;2c76fdda-68f0-4812-b73b-b0469078e809;Dirk Gently's holistische Detektei
+5a52fbc5-bf34-4956-910c-da9448f93b3b;fr;2c76fdda-68f0-4812-b73b-b0469078e809;Un cheval dans la salle de bain
+bd5d88fc-076a-4c42-b43a-a49c980e655b;en;2c76fdda-68f0-4812-b73b-b0469078e809;Dirk Gently's Holistic Detective Agency
+c8a3022d-ee76-4dd0-8513-76f63d78dfeb;en;8448079d-b5e7-4578-88af-0670eb6c2c66;The Restaurant at the End of the Universe
+9811ecad-1f51-425d-b0ae-6a82b28f9e83;de;8448079d-b5e7-4578-88af-0670eb6c2c66;Das Restaurant am Ende des Universums
+fa69fbbb-cf2f-47b2-8237-61e2b36e0e59;fr;8448079d-b5e7-4578-88af-0670eb6c2c66;Le dernier restaurant avant la fin du monde
+74184e01-4f93-4433-9cd2-41398fa4fee4;en;a0808951-75df-4b6f-843b-49645062f881;Animal Farm
+b7b14a3c-299b-4bc6-aa9b-fce339b178d0;de;a0808951-75df-4b6f-843b-49645062f881;Farm der Tiere
+ad2b7244-ed50-4441-a763-de8a682608ca;fr;a0808951-75df-4b6f-843b-49645062f881;La Ferme des Animaux
+4b1c4198-df84-4781-841d-129d00592484;de;87dba156-8812-45bb-ad2e-b61d25e0f6ea;1984
+59bb4aa0-809d-4359-8637-3575b0eed821;en;87dba156-8812-45bb-ad2e-b61d25e0f6ea;1984
+dd90d14f-3bfc-4b83-992c-2b6d55bdc642;fr;87dba156-8812-45bb-ad2e-b61d25e0f6ea;1984
