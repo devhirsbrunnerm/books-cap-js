@@ -8,6 +8,7 @@ The title property of the book is localized and all static texts are localized a
 For starting the application locally, simple type:
 
 ```sh
+$ npm i
 $ cds deploy -2 sqlite
 $ cds watch
 ```
