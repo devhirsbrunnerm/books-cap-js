@@ -1,0 +1,29 @@
+@service = http://localhost:4004/api/Authors
+
+
+###
+# Fetch all Author objects
+GET {{service}}
+
+###
+# Create a new author and store its ID
+# @name createAuthor
+POST {{service}}
+Content-Type: application/json
+
+{
+    "name": "H. G. Wells"
+}
+###
+
+@authorId = {{createAuthor.response.body.ID}}
+
+###
+# Fetch the newly created author
+GET {{service}}({{authorId}})
+
+
+###
+# Delete the newly created author
+DELETE {{service}}({{authorId}})
+

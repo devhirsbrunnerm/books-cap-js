@@ -50,7 +50,7 @@ resources:
 # ------------------------------------------------------------
    type: com.sap.xs.hdi-container
    parameters:
-     service: hanatrial  # 'hana' on production or 'hanatrial' on trial landscapes
+     service: hana  # 'hana' on production or 'hanatrial' on trial landscapes
      service-plan: hdi-shared
    properties:
      hdi-service-name: ${service-name}
